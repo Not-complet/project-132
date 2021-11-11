@@ -1,7 +1,7 @@
 status = "";
 objects = [];
 function preload(){
-    img = loadImage("remote.jpeg");
+    img = loadImage("bag.jpeg");
 }
 function setup(){
     canvas = createCanvas(425, 480);

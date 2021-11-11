@@ -1,0 +1,14 @@
+body{
+    background-size: cover;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+canvas{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-top: 150px;
+}

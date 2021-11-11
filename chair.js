@@ -1,7 +1,7 @@
 status = "";
 objects = [];
 function preload(){
-    img = loadImage("remote.jpeg");
+    img = loadImage("chair.jpeg");
 }
 function setup(){
     canvas = createCanvas(425, 480);
@@ -15,7 +15,7 @@ function draw(){
         for(i=0;i < objects.length; i++){
             document.getElementById("status").innerHTML = "Status: Objects detected";
             fill("#FF0000");
-            document.getElementById("objects").innerHTML = "There is 1 big object and cocoSSD has detected it";
+            document.getElementById("objects").innerHTML = "There are 2 big objects and cocoSSD has detected both";
             percent = floor(objects[i].confidence * 100);
             text(objects[i].label + percent + "%", objects[i].x, objects[i].y);
             noFill();
